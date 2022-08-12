@@ -7,7 +7,7 @@ declare class ParallelWorker<T extends Callback = Callback> {
 
 	public Dispatch(...args: Parameters<T>): Dispatch;
 
-	public Invoke(...args: Parameters<T>): ReturnType<T>;
+	public Invoke(...args: Parameters<T>): LuaTuple<[boolean, ...ReturnType<T>]>;
 }
 
 export = ParallelWorker;
