@@ -1,6 +1,6 @@
 {
   "name": "@rbxts/parallelworker",
-  "version": "0.0.1-ts.1",
+  "version": "0.0.1-ts.2",
   "description": "A ModuleScript library designed to abstract away Roblox's Actor model for parallel execution in favor of a simple task distribution module which handles the lifetime execution of a parallel task!",
   "main": "src/init.lua",
   "scripts": {
